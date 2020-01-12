@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA8517FA23CB12FC00FD96FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8517F923CB12FC00FD96FB /* AppDelegate.swift */; };
+		DA8517FC23CB12FC00FD96FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8517FB23CB12FC00FD96FB /* SceneDelegate.swift */; };
+		DA8517FE23CB12FC00FD96FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8517FD23CB12FC00FD96FB /* ContentView.swift */; };
+		DA85180023CB132500FD96FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA8517FF23CB132500FD96FB /* Assets.xcassets */; };
+		DA85180323CB132500FD96FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA85180223CB132500FD96FB /* Preview Assets.xcassets */; };
+		DA85180623CB132500FD96FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA85180423CB132500FD96FB /* LaunchScreen.storyboard */; };
+		DA85181123CB132600FD96FB /* Marvie_placeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA85181023CB132600FD96FB /* Marvie_placeTests.swift */; };
+		DA85181C23CB132600FD96FB /* Marvie_placeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA85181B23CB132600FD96FB /* Marvie_placeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA85180D23CB132600FD96FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA8517EE23CB12FB00FD96FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA8517F523CB12FC00FD96FB;
+			remoteInfo = "Marvie place";
+		};
+		DA85181823CB132600FD96FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA8517EE23CB12FB00FD96FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA8517F523CB12FC00FD96FB;
+			remoteInfo = "Marvie place";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA8517F623CB12FC00FD96FB /* Marvie place.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marvie place.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8517F923CB12FC00FD96FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA8517FB23CB12FC00FD96FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DA8517FD23CB12FC00FD96FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA8517FF23CB132500FD96FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA85180223CB132500FD96FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA85180523CB132500FD96FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA85180723CB132500FD96FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA85180C23CB132600FD96FB /* Marvie placeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marvie placeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA85181023CB132600FD96FB /* Marvie_placeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marvie_placeTests.swift; sourceTree = "<group>"; };
+		DA85181223CB132600FD96FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA85181723CB132600FD96FB /* Marvie placeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marvie placeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA85181B23CB132600FD96FB /* Marvie_placeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marvie_placeUITests.swift; sourceTree = "<group>"; };
+		DA85181D23CB132600FD96FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA8517F323CB12FC00FD96FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA85180923CB132600FD96FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA85181423CB132600FD96FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA8517ED23CB12FB00FD96FB = {
+			isa = PBXGroup;
+			children = (
+				DA8517F823CB12FC00FD96FB /* Marvie place */,
+				DA85180F23CB132600FD96FB /* Marvie placeTests */,
+				DA85181A23CB132600FD96FB /* Marvie placeUITests */,
+				DA8517F723CB12FC00FD96FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA8517F723CB12FC00FD96FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA8517F623CB12FC00FD96FB /* Marvie place.app */,
+				DA85180C23CB132600FD96FB /* Marvie placeTests.xctest */,
+				DA85181723CB132600FD96FB /* Marvie placeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA8517F823CB12FC00FD96FB /* Marvie place */ = {
+			isa = PBXGroup;
+			children = (
+				DA8517F923CB12FC00FD96FB /* AppDelegate.swift */,
+				DA8517FB23CB12FC00FD96FB /* SceneDelegate.swift */,
+				DA8517FD23CB12FC00FD96FB /* ContentView.swift */,
+				DA8517FF23CB132500FD96FB /* Assets.xcassets */,
+				DA85180423CB132500FD96FB /* LaunchScreen.storyboard */,
+				DA85180723CB132500FD96FB /* Info.plist */,
+				DA85180123CB132500FD96FB /* Preview Content */,
+			);
+			path = "Marvie place";
+			sourceTree = "<group>";
+		};
+		DA85180123CB132500FD96FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA85180223CB132500FD96FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA85180F23CB132600FD96FB /* Marvie placeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA85181023CB132600FD96FB /* Marvie_placeTests.swift */,
+				DA85181223CB132600FD96FB /* Info.plist */,
+			);
+			path = "Marvie placeTests";
+			sourceTree = "<group>";
+		};
+		DA85181A23CB132600FD96FB /* Marvie placeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA85181B23CB132600FD96FB /* Marvie_placeUITests.swift */,
+				DA85181D23CB132600FD96FB /* Info.plist */,
+			);
+			path = "Marvie placeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA8517F523CB12FC00FD96FB /* Marvie place */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA85182023CB132600FD96FB /* Build configuration list for PBXNativeTarget "Marvie place" */;
+			buildPhases = (
+				DA8517F223CB12FC00FD96FB /* Sources */,
+				DA8517F323CB12FC00FD96FB /* Frameworks */,
+				DA8517F423CB12FC00FD96FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Marvie place";
+			productName = "Marvie place";
+			productReference = DA8517F623CB12FC00FD96FB /* Marvie place.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA85180B23CB132600FD96FB /* Marvie placeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA85182323CB132600FD96FB /* Build configuration list for PBXNativeTarget "Marvie placeTests" */;
+			buildPhases = (
+				DA85180823CB132600FD96FB /* Sources */,
+				DA85180923CB132600FD96FB /* Frameworks */,
+				DA85180A23CB132600FD96FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA85180E23CB132600FD96FB /* PBXTargetDependency */,
+			);
+			name = "Marvie placeTests";
+			productName = "Marvie placeTests";
+			productReference = DA85180C23CB132600FD96FB /* Marvie placeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA85181623CB132600FD96FB /* Marvie placeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA85182623CB132600FD96FB /* Build configuration list for PBXNativeTarget "Marvie placeUITests" */;
+			buildPhases = (
+				DA85181323CB132600FD96FB /* Sources */,
+				DA85181423CB132600FD96FB /* Frameworks */,
+				DA85181523CB132600FD96FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA85181923CB132600FD96FB /* PBXTargetDependency */,
+			);
+			name = "Marvie placeUITests";
+			productName = "Marvie placeUITests";
+			productReference = DA85181723CB132600FD96FB /* Marvie placeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA8517EE23CB12FB00FD96FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Tello;
+				TargetAttributes = {
+					DA8517F523CB12FC00FD96FB = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					DA85180B23CB132600FD96FB = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = DA8517F523CB12FC00FD96FB;
+					};
+					DA85181623CB132600FD96FB = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = DA8517F523CB12FC00FD96FB;
+					};
+				};
+			};
+			buildConfigurationList = DA8517F123CB12FB00FD96FB /* Build configuration list for PBXProject "Marvie place" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA8517ED23CB12FB00FD96FB;
+			productRefGroup = DA8517F723CB12FC00FD96FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA8517F523CB12FC00FD96FB /* Marvie place */,
+				DA85180B23CB132600FD96FB /* Marvie placeTests */,
+				DA85181623CB132600FD96FB /* Marvie placeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA8517F423CB12FC00FD96FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA85180623CB132500FD96FB /* LaunchScreen.storyboard in Resources */,
+				DA85180323CB132500FD96FB /* Preview Assets.xcassets in Resources */,
+				DA85180023CB132500FD96FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA85180A23CB132600FD96FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA85181523CB132600FD96FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA8517F223CB12FC00FD96FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8517FA23CB12FC00FD96FB /* AppDelegate.swift in Sources */,
+				DA8517FC23CB12FC00FD96FB /* SceneDelegate.swift in Sources */,
+				DA8517FE23CB12FC00FD96FB /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA85180823CB132600FD96FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA85181123CB132600FD96FB /* Marvie_placeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA85181323CB132600FD96FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA85181C23CB132600FD96FB /* Marvie_placeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA85180E23CB132600FD96FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA8517F523CB12FC00FD96FB /* Marvie place */;
+			targetProxy = DA85180D23CB132600FD96FB /* PBXContainerItemProxy */;
+		};
+		DA85181923CB132600FD96FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA8517F523CB12FC00FD96FB /* Marvie place */;
+			targetProxy = DA85181823CB132600FD96FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA85180423CB132500FD96FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA85180523CB132500FD96FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA85181E23CB132600FD96FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA85181F23CB132600FD96FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA85182123CB132600FD96FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Marvie place/Preview Content\"";
+				DEVELOPMENT_TEAM = 524ZVN5P7L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Marvie place/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tello.Marvie-place";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA85182223CB132600FD96FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Marvie place/Preview Content\"";
+				DEVELOPMENT_TEAM = 524ZVN5P7L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Marvie place/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tello.Marvie-place";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA85182423CB132600FD96FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 524ZVN5P7L;
+				INFOPLIST_FILE = "Marvie placeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tello.Marvie-placeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marvie place.app/Marvie place";
+			};
+			name = Debug;
+		};
+		DA85182523CB132600FD96FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 524ZVN5P7L;
+				INFOPLIST_FILE = "Marvie placeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tello.Marvie-placeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marvie place.app/Marvie place";
+			};
+			name = Release;
+		};
+		DA85182723CB132600FD96FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 524ZVN5P7L;
+				INFOPLIST_FILE = "Marvie placeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tello.Marvie-placeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Marvie place";
+			};
+			name = Debug;
+		};
+		DA85182823CB132600FD96FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 524ZVN5P7L;
+				INFOPLIST_FILE = "Marvie placeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tello.Marvie-placeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Marvie place";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA8517F123CB12FB00FD96FB /* Build configuration list for PBXProject "Marvie place" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA85181E23CB132600FD96FB /* Debug */,
+				DA85181F23CB132600FD96FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA85182023CB132600FD96FB /* Build configuration list for PBXNativeTarget "Marvie place" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA85182123CB132600FD96FB /* Debug */,
+				DA85182223CB132600FD96FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA85182323CB132600FD96FB /* Build configuration list for PBXNativeTarget "Marvie placeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA85182423CB132600FD96FB /* Debug */,
+				DA85182523CB132600FD96FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA85182623CB132600FD96FB /* Build configuration list for PBXNativeTarget "Marvie placeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA85182723CB132600FD96FB /* Debug */,
+				DA85182823CB132600FD96FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA8517EE23CB12FB00FD96FB /* Project object */;
+}
