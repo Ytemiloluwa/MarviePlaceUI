@@ -2,8 +2,8 @@
 //  Marvie_placeTests.swift
 //  Marvie placeTests
 //
-//  Created by Tello on 12/01/2020.
-//  Copyright © 2020 Tello. All rights reserved.
+//  Created by Temiloluwa on 12/01/2020.
+//  Copyright © 2020 Temiloluwa. All rights reserved.
 //
 
 import XCTest
